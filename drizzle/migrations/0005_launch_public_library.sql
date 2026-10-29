@@ -1,0 +1,3 @@
+GRANT SELECT (document_id, content) ON public.library_content TO anon;
+CREATE POLICY "launch guests read library content" ON public.library_content FOR SELECT TO anon USING (EXISTS (SELECT 1 FROM public.library_documents d WHERE d.id = document_id));
+COMMENT ON POLICY "launch guests read library content" ON public.library_content IS 'Launch: full published library is free to guests; private uploads remain owner-only.';

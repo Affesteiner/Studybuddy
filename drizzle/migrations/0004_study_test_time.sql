@@ -1,0 +1,2 @@
+ALTER TABLE public.study_goals ADD COLUMN test_at timestamptz;
+COMMENT ON COLUMN public.study_goals.test_at IS 'Actual exam start time for the optional last-24-hour revision mode; target_date remains the planner date.';

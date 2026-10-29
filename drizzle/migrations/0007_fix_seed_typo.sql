@@ -1,0 +1,1 @@
+update public.library_content set content = replace(content, 'hypoteserial', 'hypoteserna') where content like '%hypoteserial%';

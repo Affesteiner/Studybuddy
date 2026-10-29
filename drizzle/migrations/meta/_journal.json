@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793205099350,
+      "tag": "0000_studiehub_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793205130751,
+      "tag": "0001_documents_storage_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793207610792,
+      "tag": "0002_rewards_planner_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793209451024,
+      "tag": "0003_xp_shop_inventory",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793209642114,
+      "tag": "0004_study_test_time",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793211858307,
+      "tag": "0005_launch_public_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793212557298,
+      "tag": "0006_seed_starter_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793212566569,
+      "tag": "0007_fix_seed_typo",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793214107617,
+      "tag": "0008_daily_drop_avatar_studio",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793214233363,
+      "tag": "0009_protect_profile_rewards",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1793287168268,
+      "tag": "0010_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1793290581297,
+      "tag": "0011_study_techniques_reviews",
+      "breakpoints": true
+    }
+  ]
+}
